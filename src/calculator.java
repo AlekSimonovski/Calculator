@@ -10,7 +10,7 @@ public class calculator {
 		 System.out.println("Vnesi go vtoriot broj: ");
 		 double b = input.nextDouble();
 		 double c;
-		 switch(operacija) {
+		 switch(operacija) {		//we can find the operation using a switch conditional statement.
 		 case "+":
 		 c=a+b;
 		 System.out.println(a+operacija+b+"="+c);
